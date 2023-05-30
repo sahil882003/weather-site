@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/9b70f6d5a9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="left-container">
+        <div>
+            <h1>Weather app</h1>
+        </div>
+        <div class="result">
+            
+                <div class="deg">
+                    <p id="temperature"></p>
+                </div>
+
+                <div class="algn">
+                    <h3 id="location-res" style="margin-bottom: 0;"></h3>
+                    <p id="time-and-date" style="margin-top: 0;"></p>
+                </div>
+                <div class=>
+                    <h3 id="icon" style="margin-bottom: 0;"></h3>
+                    <p id="description" style="margin-top:0"></p>
+                </div>
+            
+        </div>
+    </div>
+    <div class="container">
+
+
+        <div class="input">
+            <input type="text" id="location" name="location" placeholder="location">
+            <button class="search" id="loc-search"><i class=" fa fa-solid fa-magnifying-glass"></i></button>
+            <p>or</p>
+            <button class="cloc" id="current-loc"><i
+                    class=" fa fa-sharp fa-solid fa-location-crosshairs loc-symbol"></i>get current location</button>
+
+        </div>
+
+        <div>
+            <hr>
+            <p>Weather details</p>
+            <table>
+                <tr class=>
+                    <td class="left">cloudy</td>
+                    <td id="cloudy" class="right">--/--</td>
+                </tr>
+                <tr class=>
+                    <td class="left">Humidity</td>
+                    <td id="humidity" class="right">--/--</td>
+                </tr>
+                <tr class=>
+                    <td class="left">Wind</td>
+                    <td id="wind" class="right">--/--</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>

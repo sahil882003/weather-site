@@ -1,0 +1,141 @@
+body {
+  background-image: url('./photos/Rain.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: end;
+  height:98vh;
+  
+}
+
+input {
+  background: transparent;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: white;
+  height:40px;
+  width:75%;
+  margin-top:10px;
+  color: #fff;
+}
+
+input::focus {
+  border-color: white; 
+   outline: 0;
+  color: white;
+
+}
+
+.image{
+  height:80px;
+}
+
+tr{
+  margin-bottom: 8%;
+}
+
+
+input::placeholder {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.search{
+  margin-top:16px;
+  height:40px;
+  width:15%;
+  background-color: rgb(254, 126, 80);
+}
+hr{
+  width:100%;
+  margin-bottom:80px;
+  margin-top:30px;
+}
+.cloc{
+  background-color: transparent;
+  color:white;
+  outline-color: white;
+  width:100%;
+  border-color:white;
+  height:40px;
+  font-size:1.25rem ;
+  font-weight: lighter;
+  border-radius: 4%;
+  
+}
+
+.loc-symbol{
+  margin-right:4px;
+}
+.container {
+  width:15%;
+  height: 50px;
+  padding: 0 2% 0 2%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  display: inline-flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  border-radius: 2%;
+  gap:4%;
+  
+  
+}
+
+.left-container {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 53%;
+}
+
+.result {
+  display: flex;
+  flex-basis: 100px;
+  gap: 30px;
+  margin-left: 15%;
+  
+}
+
+  
+
+.deg {
+  font-size: 4rem;
+}
+
+.algn{
+  position:relative;
+  top:50px;
+  height:fit-content;
+}
+
+p{
+  text-align: center;
+}
+
+.input{
+  position: relative;
+  top:10%;
+  margin-bottom:60px;
+}
+table{
+  width:100%;
+}
+tr{
+  width:100%;
+}
+td{
+  padding-top: 40px;
+  width:50%;
+  margin-right:30%;
+}
+
+.right{
+  text-align: end;
+}
